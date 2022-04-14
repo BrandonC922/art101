@@ -1,0 +1,31 @@
+body{
+background-color: WhiteSmoke;
+text-align: center;
+font-family: "Times New Roman";
+color: SteelBlue;
+font-size: 200%;
+text-overflow: ellipsis;
+}
+div{
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+font-family: "Roboto";
+color: MediumBlue;
+width: 800px;
+border: 15px solid SteelBlue;
+padding: 25px;
+}
+
+#headshot {
+  width: 300px;
+}
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 800px;
+  border: 15px solid SteelBlue;
+  padding: 25px;
+}
