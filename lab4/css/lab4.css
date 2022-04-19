@@ -1,0 +1,23 @@
+h1{
+  font-size: 15;
+  color: darkblue;
+}
+body{
+  font-size: 12;
+  color:black;
+  margin: auto;
+  width: 50%;
+  border: 3px solid cyan;
+  padding: 10px;
+}
+
+#File_structure {
+  width: 1000px;
+}
+ul {
+  list-style: circle outside;
+  width: 100px;
+}
+div1 {
+  font-size: 18px;
+}
