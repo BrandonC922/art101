@@ -1,0 +1,35 @@
+h1{
+  font-size: 15;
+  color: yellow;
+  text-decoration: underline  white;
+}
+body{
+  background-image: radial-gradient(white, pink, blue);
+  font-size: 12;
+  color:black;
+  margin: auto;
+  width: 75%;
+  border: 5px solid lightblue;
+  padding: 10px;
+}
+
+#File_structure {
+  width: 1000px;
+}
+
+div {
+  font-size: 12;
+  color:black;
+  margin: auto;
+  width: 70%;
+  border: 20px solid darkgrey;
+  padding: 10px;
+  font-size: 30px;
+}
+img#car{
+display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 75%;
+ border: 5px solid pink:
+}
