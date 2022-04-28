@@ -1,22 +1,32 @@
 //Author: Brandon Christensen
-//Created: April 25, 2022
+//Created: April 27, 2022
 //Class: Art 101
 
-//Define Variables
-var year = 2012;
+//Function to takes and sorts a user given username
+function sortUserName() {
 
-var age = 2022 - year;
+var username = window.prompt("Hi. Please tell me your name so I can fix it.");
+console.log("username =", username);
 
-var myTransport = ["Walking", " Running", " Metro Bus", " Uber" , "Lyft"];
+// split string to Arrays
 
-var myMainRide = {
-    make: "Tesla",
-    model:"S",
-    year: 2012,
-    color: "Black",
-    age: age };
+var nameArray = username.split('');
+console.log("nameArray =", nameArray);
 
-//Output for HTMl
-document.writeln("Getting around: " + myTransport + "<br>");
-document.writeln("My Main Ride: <pre>",
-    JSON.stringify(myMainRide, null, '\t'), "</pre>");
+// sort the Arrays
+
+var nameArraySort = nameArray.sort();
+console.log("nameArraySort =", nameArraySort);
+
+//join array back to stringif
+
+var nameSorted = nameArraySort.join('');
+console.log("nameSorted =", nameSorted);
+
+//returns sorted name
+
+return nameSorted;
+}
+//Output
+document.writeln("Oh hey, I've fixed your name: ",
+sortUserName(), "</br>");
