@@ -1,0 +1,51 @@
+h1{
+  font-size: 15;
+  color: white;
+  text-decoration: underline  Black;
+}
+body {
+	background: linear-gradient(-90deg, darkorange, orange, lightgreen, green);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	height: 100vh;
+}
+p1 {
+  color:black;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+<!-- Source for background https://1stwebdesigner.com/15-css-background-effects/ -->
+#File_structure {
+  width: 1000px;
+}
+
+div {
+  font-size: 12;
+  color:black;
+  margin-left: auto;
+  width: 70%;
+  border: 20px solid white;
+  padding: 10px;
+  font-size: 30px;
+}
+img#car{
+display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 75%;
+ border: 5px solid pink:
+}
+
+h3 {
+  color: white;
+}
