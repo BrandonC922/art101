@@ -1,0 +1,38 @@
+
+h1{
+  font-size: 15;
+  color: yellow;
+  text-decoration: underline  Black;
+}
+body {
+  background-color: #95fefc;
+  opacity: 1;
+  background-image: radial-gradient(circle at center center, #000000, #95fefc),
+   repeating-radial-gradient(circle at center center, #000000, #000000, 10px, transparent 20px, transparent 10px);
+  background-blend-mode: multiply;
+  //source https://www.magicpattern.design/tools/css-backgrounds
+}
+div {
+  font-size: 12;
+  color:black;
+  margin-left: auto;
+  width: 70%;
+  border: 20px solid white;
+  padding: 10px;
+  font-size: 30px;
+}
+img#car{
+display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 75%;
+ border: 5px solid pink:
+}
+
+h3 {
+  color: white;
+}
+
+p1 {
+  color: white;
+}
