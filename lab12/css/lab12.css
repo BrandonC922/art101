@@ -1,0 +1,29 @@
+h1{
+  font-size: 15;
+  color: lightblue;
+  text-decoration: underline  white;
+}
+h2{
+  font-size: 15;
+  color: darkblue;
+}
+body{
+  background-image: radial-gradient(black, purple , black);
+  font-size: 12;
+  color:black;
+  margin: auto;
+  width: 75%;
+  border: 5px solid blue;
+  padding: 10px;
+}
+
+#input{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+
+}
+
+p1 {
+  color: white;
+}
