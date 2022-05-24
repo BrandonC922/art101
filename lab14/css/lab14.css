@@ -1,0 +1,40 @@
+h1{
+  font-size: 15;
+  color: yellow;
+  text-decoration: underline  white;
+}
+h2{
+  font-size: 15;
+  color: darkblue;
+}
+body{
+  background-image: radial-gradient(blue, lightgreen , purple);
+  font-size: 12;
+  color:black;
+  margin: auto;
+  width: 75%;
+  border: 5px solid lightblue;
+  padding: 10px;
+}
+
+#File_structure {
+  width: 1000px;
+}
+
+.red{
+  background-color: darkred;
+  color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.blue{
+  background-color: pink;
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.green{
+  background-color: yellow;
+  color: orange;
+  font-family: "Lucida Console", "Courier New", monospace;
+}

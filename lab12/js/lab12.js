@@ -6,9 +6,8 @@
 //Creating a Sorting Function
 
 function sortingHat(str) {
-  len = str.length
-  mod = len % 4
-
+   len = str.length;
+   mod = len % 4;
   if (mod == 0) {
   return "GRYFFINDOR"
 }
@@ -23,12 +22,12 @@ else if (mod == 3) {
 }
 }
 //Make a button
-var myButton = document.getElementById("button")
+var myButton = $("#button");
 
 //Make and Event listener for the button
-myButton.addEventListener("click", function() {
-  var name = document.getElementById("input").value;
+$("#button").click(function() {
+  var name = $("#input").val();
   var house = sortingHat(name);
-  answer = "You have been placed in: " + house ;
-  document.getElementById("output").innerHTML = answer;
+  answer = "<p> You have been placed in: " + house + "</p>";
+  $("#output").html(answer)
 })
