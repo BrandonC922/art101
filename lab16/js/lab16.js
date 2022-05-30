@@ -17,7 +17,7 @@ function getAjax() {
   	$("#output").append( data.alt );
   })
   .fail(function(request, error){
-  	$("#output").html("Something fucked up.");
+  	$("#output").html("Something messed up.");
   })
 }
 
