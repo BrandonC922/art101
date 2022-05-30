@@ -1,0 +1,23 @@
+h1{
+  font-size: 15;
+  color: yellow;
+  text-decoration: underline  white;
+}
+h2{
+  font-size: 15;
+  color: darkblue;
+}
+body{
+  background-image: radial-gradient(white, lightgreen , purple);
+  font-size: 12;
+  color:black;
+  margin: auto;
+  width: 75%;
+  border: 5px solid lightblue;
+  padding: 10px;
+}
+
+#output{
+  background-color: White;
+}
+/* SOURCE OF CODE FOR RAINBOW LETTER https://lenadesign.org/2021/03/05/pure-css-rainbow-text-animation/ */
