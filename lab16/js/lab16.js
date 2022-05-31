@@ -4,7 +4,7 @@
 // LAB 15
 
 // Getting the URL
- var endpoint = "https://xkcd.com/614/info.0.json";
+ var endpoint = "https://xkcd.com/info.0.json";
 
 function getAjax() {
 	$.ajax({
